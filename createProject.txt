@@ -1,0 +1,22 @@
+npm init playwright
+Do you want to use TypeScript or JavaScript? · JavaScript
+Where to put your end-to-end tests? · tests
+Add a GitHub Actions workflow? (y/N) · true
+Install Playwright browsers (can be done manually via 'npx playwright install')? (Y/n) · true
+
+npx playwright show-report
+
+// for duplicate use index
+// check css
+If ID is present
+css -> tagname#id (or) #id
+
+If class attribute is present
+css -> [attribute='value'] (or) .class
+
+Write css based on any attribute
+css -> [attribute='value']
+
+Debug ->  --debug
+
+Codegen -> npx playwright codegen http://google.com
